@@ -20,11 +20,7 @@
     NSLog(@"test");
     NSLog(@"woshini");
     NSLog(@"haja");
-    
-    
-    
-    
-}
+    }
 
 
 @end
