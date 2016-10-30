@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		068714611DC5E56000896C58 /* LogiinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0687145F1DC5E56000896C58 /* LogiinViewController.m */; };
+		068714621DC5E56000896C58 /* LogiinViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 068714601DC5E56000896C58 /* LogiinViewController.xib */; };
 		06EE62E71DC59DC600236E5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EE62E61DC59DC600236E5B /* main.m */; };
 		06EE62EA1DC59DC600236E5B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EE62E91DC59DC600236E5B /* AppDelegate.m */; };
 		06EE62ED1DC59DC600236E5B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EE62EC1DC59DC600236E5B /* ViewController.m */; };
@@ -16,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0687145E1DC5E56000896C58 /* LogiinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogiinViewController.h; sourceTree = "<group>"; };
+		0687145F1DC5E56000896C58 /* LogiinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogiinViewController.m; sourceTree = "<group>"; };
+		068714601DC5E56000896C58 /* LogiinViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LogiinViewController.xib; sourceTree = "<group>"; };
 		06EE62E21DC59DC600236E5B /* ETMX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ETMX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06EE62E61DC59DC600236E5B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		06EE62E81DC59DC600236E5B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -39,9 +44,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		068714521DC5E3B800896C58 /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				0687145D1DC5E52D00896C58 /* LoginConttrol */,
+			);
+			name = modules;
+			path = ETMX/modules;
+			sourceTree = "<group>";
+		};
+		0687145B1DC5E4D000896C58 /* tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = tools;
+			path = ETMX/tools;
+			sourceTree = "<group>";
+		};
+		0687145C1DC5E4E400896C58 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Library;
+			path = ETMX/Library;
+			sourceTree = "<group>";
+		};
+		0687145D1DC5E52D00896C58 /* LoginConttrol */ = {
+			isa = PBXGroup;
+			children = (
+				0687145E1DC5E56000896C58 /* LogiinViewController.h */,
+				0687145F1DC5E56000896C58 /* LogiinViewController.m */,
+				068714601DC5E56000896C58 /* LogiinViewController.xib */,
+			);
+			path = LoginConttrol;
+			sourceTree = "<group>";
+		};
 		06EE62D91DC59DC500236E5B = {
 			isa = PBXGroup;
 			children = (
+				0687145C1DC5E4E400896C58 /* Library */,
+				0687145B1DC5E4D000896C58 /* tools */,
+				068714521DC5E3B800896C58 /* modules */,
 				06EE62E41DC59DC600236E5B /* ETMX */,
 				06EE62E31DC59DC600236E5B /* Products */,
 			);
@@ -140,6 +183,7 @@
 			files = (
 				06EE62F51DC59DC600236E5B /* LaunchScreen.storyboard in Resources */,
 				06EE62F21DC59DC600236E5B /* Assets.xcassets in Resources */,
+				068714621DC5E56000896C58 /* LogiinViewController.xib in Resources */,
 				06EE62F01DC59DC600236E5B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -153,6 +197,7 @@
 			files = (
 				06EE62ED1DC59DC600236E5B /* ViewController.m in Sources */,
 				06EE62EA1DC59DC600236E5B /* AppDelegate.m in Sources */,
+				068714611DC5E56000896C58 /* LogiinViewController.m in Sources */,
 				06EE62E71DC59DC600236E5B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,6 +355,7 @@
 				06EE62FB1DC59DC600236E5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

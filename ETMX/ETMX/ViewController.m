@@ -22,7 +22,7 @@
     NSLog(@"haja");
     NSLog(@"回家后尝试");
     NSLog(@"回家后尝试2");
-     NSLog(@"回家后尝试2——yang");
+    NSLog(@"回家后尝试2——yang");
     
 }
 
