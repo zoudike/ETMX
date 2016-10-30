@@ -21,7 +21,8 @@
     NSLog(@"woshini");
     NSLog(@"haja");
     NSLog(@"回家后尝试");
-    }
+    NSLog(@"回家后尝试2");
+}
 
 
 @end
