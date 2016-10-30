@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		068714611DC5E56000896C58 /* LogiinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0687145F1DC5E56000896C58 /* LogiinViewController.m */; };
 		068714621DC5E56000896C58 /* LogiinViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 068714601DC5E56000896C58 /* LogiinViewController.xib */; };
+		0687146B1DC5EBC800896C58 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 0687146A1DC5EBC800896C58 /* Test.m */; };
+		0687146E1DC5EBD500896C58 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 0687146D1DC5EBD500896C58 /* Test.m */; };
 		06EE62E71DC59DC600236E5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EE62E61DC59DC600236E5B /* main.m */; };
 		06EE62EA1DC59DC600236E5B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EE62E91DC59DC600236E5B /* AppDelegate.m */; };
 		06EE62ED1DC59DC600236E5B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EE62EC1DC59DC600236E5B /* ViewController.m */; };
@@ -21,6 +23,10 @@
 		0687145E1DC5E56000896C58 /* LogiinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogiinViewController.h; sourceTree = "<group>"; };
 		0687145F1DC5E56000896C58 /* LogiinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogiinViewController.m; sourceTree = "<group>"; };
 		068714601DC5E56000896C58 /* LogiinViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LogiinViewController.xib; sourceTree = "<group>"; };
+		068714691DC5EBC800896C58 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		0687146A1DC5EBC800896C58 /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
+		0687146C1DC5EBD500896C58 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		0687146D1DC5EBD500896C58 /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 		06EE62E21DC59DC600236E5B /* ETMX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ETMX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06EE62E61DC59DC600236E5B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		06EE62E81DC59DC600236E5B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -56,6 +62,8 @@
 		0687145B1DC5E4D000896C58 /* tools */ = {
 			isa = PBXGroup;
 			children = (
+				068714691DC5EBC800896C58 /* Test.h */,
+				0687146A1DC5EBC800896C58 /* Test.m */,
 			);
 			name = tools;
 			path = ETMX/tools;
@@ -64,6 +72,8 @@
 		0687145C1DC5E4E400896C58 /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				0687146C1DC5EBD500896C58 /* Test.h */,
+				0687146D1DC5EBD500896C58 /* Test.m */,
 			);
 			name = Library;
 			path = ETMX/Library;
@@ -195,8 +205,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0687146B1DC5EBC800896C58 /* Test.m in Sources */,
 				06EE62ED1DC59DC600236E5B /* ViewController.m in Sources */,
 				06EE62EA1DC59DC600236E5B /* AppDelegate.m in Sources */,
+				0687146E1DC5EBD500896C58 /* Test.m in Sources */,
 				068714611DC5E56000896C58 /* LogiinViewController.m in Sources */,
 				06EE62E71DC59DC600236E5B /* main.m in Sources */,
 			);
