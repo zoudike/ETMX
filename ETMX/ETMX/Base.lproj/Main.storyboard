@@ -91,11 +91,19 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <pickerView contentMode="scaleAspectFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4yF-1F-xyu" userLabel="语言选择">
+                                <frame key="frameInset" minX="183" minY="496" height="121" maxX="-27"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="90" id="c7Q-Ey-GvZ"/>
+                                    <constraint firstAttribute="width" constant="300" id="wBp-7w-ClP"/>
+                                </constraints>
+                            </pickerView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Dlb-To-qD8" firstAttribute="top" secondItem="wfS-uD-efC" secondAttribute="bottom" constant="34" id="26E-08-6E7"/>
                             <constraint firstItem="Oo4-ub-Agd" firstAttribute="top" secondItem="wfS-uD-efC" secondAttribute="top" id="8Oh-2X-5MV"/>
+                            <constraint firstItem="4yF-1F-xyu" firstAttribute="top" secondItem="Dlb-To-qD8" secondAttribute="bottom" constant="45" id="ADU-vn-OLe"/>
                             <constraint firstItem="eMO-PH-1Y6" firstAttribute="top" secondItem="s3f-0v-Lzb" secondAttribute="bottom" constant="34" id="B8A-CJ-62I"/>
                             <constraint firstItem="wfS-uD-efC" firstAttribute="leading" secondItem="s3f-0v-Lzb" secondAttribute="leading" id="DMg-Tg-Qvz"/>
                             <constraint firstAttribute="trailing" secondItem="eMO-PH-1Y6" secondAttribute="trailing" constant="30" id="I14-1F-Fa0"/>
@@ -107,6 +115,7 @@
                             <constraint firstItem="g3r-P0-FSn" firstAttribute="top" secondItem="s3f-0v-Lzb" secondAttribute="top" id="hPn-Fu-emz"/>
                             <constraint firstItem="wfS-uD-efC" firstAttribute="top" secondItem="s3f-0v-Lzb" secondAttribute="bottom" constant="70" id="j81-uy-jFx"/>
                             <constraint firstItem="Dlb-To-qD8" firstAttribute="leading" secondItem="5Pl-im-4jT" secondAttribute="leading" constant="30" id="j8W-23-T5v"/>
+                            <constraint firstItem="4yF-1F-xyu" firstAttribute="leading" secondItem="6vc-i0-D1o" secondAttribute="trailing" constant="350" id="ksI-cJ-G9J"/>
                             <constraint firstItem="6vc-i0-D1o" firstAttribute="leading" secondItem="wfS-uD-efC" secondAttribute="leading" id="p6R-qM-ePp"/>
                             <constraint firstItem="eMO-PH-1Y6" firstAttribute="leading" secondItem="5Pl-im-4jT" secondAttribute="leading" constant="30" id="v8T-ie-Mxw"/>
                             <constraint firstItem="g3r-P0-FSn" firstAttribute="leading" secondItem="s3f-0v-Lzb" secondAttribute="trailing" constant="350" id="zzc-uT-aeC"/>
