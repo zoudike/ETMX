@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		068714611DC5E56000896C58 /* LogiinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0687145F1DC5E56000896C58 /* LogiinViewController.m */; };
+		06CF54051DC8B046008BB958 /* ETMXApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 06CF54041DC8B046008BB958 /* ETMXApi.m */; };
 		06EE62E71DC59DC600236E5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EE62E61DC59DC600236E5B /* main.m */; };
 		06EE62EA1DC59DC600236E5B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EE62E91DC59DC600236E5B /* AppDelegate.m */; };
 		06EE62ED1DC59DC600236E5B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EE62EC1DC59DC600236E5B /* ViewController.m */; };
@@ -26,6 +27,9 @@
 /* Begin PBXFileReference section */
 		0687145E1DC5E56000896C58 /* LogiinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogiinViewController.h; sourceTree = "<group>"; };
 		0687145F1DC5E56000896C58 /* LogiinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogiinViewController.m; sourceTree = "<group>"; };
+		06CF54031DC8B046008BB958 /* ETMXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETMXApi.h; sourceTree = "<group>"; };
+		06CF54041DC8B046008BB958 /* ETMXApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETMXApi.m; sourceTree = "<group>"; };
+		06CF54061DC8B2BA008BB958 /* ETMXDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ETMXDefine.h; sourceTree = "<group>"; };
 		06EE62E21DC59DC600236E5B /* ETMX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ETMX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06EE62E61DC59DC600236E5B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		06EE62E81DC59DC600236E5B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -80,6 +84,9 @@
 			children = (
 				24DD77AB1DC61A8400AF5E64 /* NetWorkManager.h */,
 				24DD77AC1DC61A8400AF5E64 /* NetWorkManager.m */,
+				06CF54031DC8B046008BB958 /* ETMXApi.h */,
+				06CF54041DC8B046008BB958 /* ETMXApi.m */,
+				06CF54061DC8B2BA008BB958 /* ETMXDefine.h */,
 			);
 			name = tools;
 			path = ETMX/tools;
@@ -332,6 +339,7 @@
 				242E7C041DC787650017E828 /* UserManager.m in Sources */,
 				06EE62ED1DC59DC600236E5B /* ViewController.m in Sources */,
 				242E7C071DC787790017E828 /* UserAccount.m in Sources */,
+				06CF54051DC8B046008BB958 /* ETMXApi.m in Sources */,
 				24DD77B61DC6277100AF5E64 /* LibraryTest.m in Sources */,
 				06EE62EA1DC59DC600236E5B /* AppDelegate.m in Sources */,
 				242E7C0D1DC797EB0017E828 /* ETMXMachine.m in Sources */,

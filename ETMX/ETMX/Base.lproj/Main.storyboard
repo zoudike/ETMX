@@ -92,10 +92,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleAspectFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4yF-1F-xyu" userLabel="语言选择">
-                                <frame key="frameInset" minX="183" minY="496" height="121" maxX="-27"/>
+                                <frame key="frameInset" minX="183" minY="483" height="128" maxX="-27"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="90" id="c7Q-Ey-GvZ"/>
-                                    <constraint firstAttribute="width" constant="300" id="wBp-7w-ClP"/>
+                                    <constraint firstAttribute="width" constant="500" id="wBp-7w-ClP"/>
                                 </constraints>
                             </pickerView>
                         </subviews>
@@ -124,6 +124,9 @@
                     <navigationItem key="navigationItem" id="tv9-c0-tKJ"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="375" height="667"/>
+                    <connections>
+                        <outlet property="LanguagePicker" destination="4yF-1F-xyu" id="SfJ-Bf-nPs"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aLX-Or-DeZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

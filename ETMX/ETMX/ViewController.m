@@ -7,9 +7,12 @@
 //
 
 #import "ViewController.h"
-#import "Test.h"
+#import "ETMXApi.h"
+#import "ETMXDefine.h"
 
-@interface ViewController ()
+
+@interface ViewController ()<UIPickerViewDataSource,UIPickerViewDelegate>
+@property (weak, nonatomic) IBOutlet UIPickerView *LanguagePicker;
 
 @end
 
@@ -18,9 +21,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    Test *netWorkingTest = [[Test alloc] init];
-    [netWorkingTest soapRequestTest];
-    
+
     
     UILabel * titleLabel = [[UILabel alloc] init];
     [titleLabel setText:@"欢迎使用 ETMX"];
@@ -32,7 +33,60 @@
     [self.view addConstraint:[NSLayoutConstraint constraintWithItem:titleLabel attribute:NSLayoutAttributeCenterX relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeCenterX multiplier:1 constant:0]];
     [self.view addConstraint:[NSLayoutConstraint constraintWithItem:titleLabel attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1 constant:100]];
 
+    self.LanguagePicker.delegate = self;
+    self.LanguagePicker.dataSource = self;
+    
 }
+
+
+
+#pragma UIPickerViewDataSource
+- (NSInteger)numberOfComponentsInPickerView:(UIPickerView *)pickerView
+{
+    return 1;
+}
+- (NSInteger)pickerView:(UIPickerView *)pickerView numberOfRowsInComponent:(NSInteger)component
+{    
+    return 2;
+}
+#pragma UIPickerViewDelegate
+
+- (CGFloat)pickerView:(UIPickerView *)pickerView widthForComponent:(NSInteger)component
+{
+    return 400;
+    
+}
+- (CGFloat)pickerView:(UIPickerView *)pickerView rowHeightForComponent:(NSInteger)component
+{
+    return 35;
+}
+
+- (nullable NSString *)pickerView:(UIPickerView *)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component
+{
+    if (row == 0) {
+        return @"中文简体";
+    }else if (row == 1){
+        return @"中文繁体";
+    }
+    return nil;
+    
+}
+- (void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component
+{
+    ETMXApi * eTMXApi = [[ETMXApi alloc] init];
+    if (row == 0) {
+        eTMXApi.language = @"中文简体";
+    }else if (row == 1){
+        eTMXApi.language = @"中文繁体";
+        
+    }
+    
+    
+    
+}
+
+
+
 
 
 @end
