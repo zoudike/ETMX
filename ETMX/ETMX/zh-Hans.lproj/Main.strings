@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "语言"; ObjectID = "6vc-i0-D1o"; */
+"6vc-i0-D1o.text" = "语言";
+
+/* Class = "UITextField"; text = "Your password"; ObjectID = "Oo4-ub-Agd"; */
+"Oo4-ub-Agd.text" = "Your password";
+
+/* Class = "UITextField"; text = "Your username"; ObjectID = "g3r-P0-FSn"; */
+"g3r-P0-FSn.text" = "Your username";
+
+/* Class = "UILabel"; text = "用户名"; ObjectID = "s3f-0v-Lzb"; */
+"s3f-0v-Lzb.text" = "用户名";
+
+/* Class = "UILabel"; text = "密码"; ObjectID = "wfS-uD-efC"; */
+"wfS-uD-efC.text" = "密码";

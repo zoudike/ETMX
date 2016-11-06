@@ -1,0 +1,15 @@
+/* 
+  Language.strings
+  ETMX
+
+  Created by 杨香港 on 2016/11/3.
+  Copyright © 2016年 杨香港. All rights reserved.
+*/
+
+"title" = "歡迎使用 ETMX";
+"username" = "用戶名";
+"password" = "密碼";
+"language" =  "中文繁體";
+"login" = "登陸";
+"changeIP" = "修改ip";
+"ScanQRCode" = "掃碼登錄";

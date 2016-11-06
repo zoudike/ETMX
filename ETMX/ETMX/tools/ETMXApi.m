@@ -33,14 +33,6 @@
     
 }
 
-- (void)setLanguage:(NSString *)language
-{
-    @synchronized (self) {
-        self.language = language;
-    }
-}
-
-
 
 
 @end

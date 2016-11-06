@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		061AD7651DCB16AF004E8392 /* Language.strings in Resources */ = {isa = PBXBuildFile; fileRef = 061AD7671DCB16AF004E8392 /* Language.strings */; };
+		066D79021DCD8A2B0027588B /* QRScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 066D78FF1DCD8A2B0027588B /* QRScanViewController.m */; };
+		066D79031DCD8A2B0027588B /* UIImage+QRScale.m in Sources */ = {isa = PBXBuildFile; fileRef = 066D79011DCD8A2B0027588B /* UIImage+QRScale.m */; };
+		066D79091DCD8A7C0027588B /* QRCodeGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 066D79061DCD8A7C0027588B /* QRCodeGenerator.m */; };
+		066D790A1DCD8A7C0027588B /* UIView+QREasyFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 066D79081DCD8A7C0027588B /* UIView+QREasyFrame.m */; };
 		068714611DC5E56000896C58 /* LogiinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0687145F1DC5E56000896C58 /* LogiinViewController.m */; };
 		06CF54051DC8B046008BB958 /* ETMXApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 06CF54041DC8B046008BB958 /* ETMXApi.m */; };
 		06EE62E71DC59DC600236E5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EE62E61DC59DC600236E5B /* main.m */; };
@@ -25,6 +30,24 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		061AD7611DCB1524004E8392 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		061AD7621DCB1524004E8392 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		061AD7681DCB16B2004E8392 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Language.strings; sourceTree = "<group>"; };
+		061AD76A1DCB16C6004E8392 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
+		061AD76B1DCB16C6004E8392 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		061AD76C1DCB16C6004E8392 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Language.strings"; sourceTree = "<group>"; };
+		061AD76D1DCB26A5004E8392 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		061AD7701DCB2DF7004E8392 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Language.strings"; sourceTree = "<group>"; };
+		061AD7891DCB2E58004E8392 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Language.strings; sourceTree = "<group>"; };
+		066D78FE1DCD8A2B0027588B /* QRScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRScanViewController.h; sourceTree = "<group>"; };
+		066D78FF1DCD8A2B0027588B /* QRScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRScanViewController.m; sourceTree = "<group>"; };
+		066D79001DCD8A2B0027588B /* UIImage+QRScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+QRScale.h"; sourceTree = "<group>"; };
+		066D79011DCD8A2B0027588B /* UIImage+QRScale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+QRScale.m"; sourceTree = "<group>"; };
+		066D79051DCD8A7C0027588B /* QRCodeGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeGenerator.h; sourceTree = "<group>"; };
+		066D79061DCD8A7C0027588B /* QRCodeGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeGenerator.m; sourceTree = "<group>"; };
+		066D79071DCD8A7C0027588B /* UIView+QREasyFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+QREasyFrame.h"; sourceTree = "<group>"; };
+		066D79081DCD8A7C0027588B /* UIView+QREasyFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+QREasyFrame.m"; sourceTree = "<group>"; };
+		066D790E1DCDE2E70027588B /* QRCodeCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QRCodeCommon.h; path = QRCode/QRCodeCommon.h; sourceTree = "<group>"; };
 		0687145E1DC5E56000896C58 /* LogiinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogiinViewController.h; sourceTree = "<group>"; };
 		0687145F1DC5E56000896C58 /* LogiinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogiinViewController.m; sourceTree = "<group>"; };
 		06CF54031DC8B046008BB958 /* ETMXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETMXApi.h; sourceTree = "<group>"; };
@@ -69,9 +92,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		066D78FD1DCD89EA0027588B /* QRCode */ = {
+			isa = PBXGroup;
+			children = (
+				066D79041DCD8A7C0027588B /* Tool */,
+				066D78FE1DCD8A2B0027588B /* QRScanViewController.h */,
+				066D78FF1DCD8A2B0027588B /* QRScanViewController.m */,
+				066D79001DCD8A2B0027588B /* UIImage+QRScale.h */,
+				066D79011DCD8A2B0027588B /* UIImage+QRScale.m */,
+			);
+			path = QRCode;
+			sourceTree = "<group>";
+		};
+		066D79041DCD8A7C0027588B /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				066D79051DCD8A7C0027588B /* QRCodeGenerator.h */,
+				066D79061DCD8A7C0027588B /* QRCodeGenerator.m */,
+				066D79071DCD8A7C0027588B /* UIView+QREasyFrame.h */,
+				066D79081DCD8A7C0027588B /* UIView+QREasyFrame.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
 		068714521DC5E3B800896C58 /* modules */ = {
 			isa = PBXGroup;
 			children = (
+				066D790E1DCDE2E70027588B /* QRCodeCommon.h */,
+				066D78FD1DCD89EA0027588B /* QRCode */,
 				24DD77AA1DC61A2F00AF5E64 /* TaskMainController */,
 				0687145D1DC5E52D00896C58 /* LoginConttrol */,
 			);
@@ -145,6 +193,8 @@
 				06EE62F31DC59DC600236E5B /* LaunchScreen.storyboard */,
 				06EE62F61DC59DC600236E5B /* Info.plist */,
 				06EE62E51DC59DC600236E5B /* Supporting Files */,
+				061AD7671DCB16AF004E8392 /* Language.strings */,
+				061AD76D1DCB26A5004E8392 /* PrefixHeader.pch */,
 			);
 			path = ETMX;
 			sourceTree = "<group>";
@@ -259,6 +309,8 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
+				"zh-Hant",
 			);
 			mainGroup = 06EE62D91DC59DC500236E5B;
 			productRefGroup = 06EE62E31DC59DC600236E5B /* Products */;
@@ -275,6 +327,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				061AD7651DCB16AF004E8392 /* Language.strings in Resources */,
 				06EE62F51DC59DC600236E5B /* LaunchScreen.storyboard in Resources */,
 				06EE62F21DC59DC600236E5B /* Assets.xcassets in Resources */,
 				06EE62F01DC59DC600236E5B /* Main.storyboard in Resources */,
@@ -338,14 +391,18 @@
 			files = (
 				242E7C041DC787650017E828 /* UserManager.m in Sources */,
 				06EE62ED1DC59DC600236E5B /* ViewController.m in Sources */,
+				066D79031DCD8A2B0027588B /* UIImage+QRScale.m in Sources */,
 				242E7C071DC787790017E828 /* UserAccount.m in Sources */,
 				06CF54051DC8B046008BB958 /* ETMXApi.m in Sources */,
 				24DD77B61DC6277100AF5E64 /* LibraryTest.m in Sources */,
 				06EE62EA1DC59DC600236E5B /* AppDelegate.m in Sources */,
+				066D79091DCD8A7C0027588B /* QRCodeGenerator.m in Sources */,
 				242E7C0D1DC797EB0017E828 /* ETMXMachine.m in Sources */,
 				068714611DC5E56000896C58 /* LogiinViewController.m in Sources */,
+				066D79021DCD8A2B0027588B /* QRScanViewController.m in Sources */,
 				24DD77AD1DC61A8400AF5E64 /* NetWorkManager.m in Sources */,
 				242E7C0A1DC792040017E828 /* ETMXTask.m in Sources */,
+				066D790A1DCD8A7C0027588B /* UIView+QREasyFrame.m in Sources */,
 				06EE62E71DC59DC600236E5B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -353,10 +410,23 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		061AD7671DCB16AF004E8392 /* Language.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				061AD7681DCB16B2004E8392 /* en */,
+				061AD76C1DCB16C6004E8392 /* zh-Hant */,
+				061AD7701DCB2DF7004E8392 /* zh-Hans */,
+				061AD7891DCB2E58004E8392 /* Base */,
+			);
+			name = Language.strings;
+			sourceTree = "<group>";
+		};
 		06EE62EE1DC59DC600236E5B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				06EE62EF1DC59DC600236E5B /* Base */,
+				061AD7611DCB1524004E8392 /* zh-Hans */,
+				061AD76A1DCB16C6004E8392 /* zh-Hant */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -365,6 +435,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				06EE62F41DC59DC600236E5B /* Base */,
+				061AD7621DCB1524004E8392 /* zh-Hans */,
+				061AD76B1DCB16C6004E8392 /* zh-Hant */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -376,6 +448,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -423,6 +496,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -467,6 +541,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = U6Z55XY4LH;
+				GCC_PREFIX_HEADER = ETMX/PrefixHeader.pch;
 				INFOPLIST_FILE = ETMX/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -483,6 +558,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = U6Z55XY4LH;
+				GCC_PREFIX_HEADER = ETMX/PrefixHeader.pch;
 				INFOPLIST_FILE = ETMX/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

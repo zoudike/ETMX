@@ -7,31 +7,40 @@
 //
 
 #import "LogiinViewController.h"
+#import "UserAccount.h"
+#import "NetWorkManager.h"
 
 @interface LogiinViewController ()
+
+@property(nonatomic,strong)AFHTTPSessionManager * manager;
 
 @end
 
 @implementation LogiinViewController
+
+
+- (instancetype)init
+{
+    self = [super init];
+    self.manager =  [AFHTTPSessionManager manager];
+    return self;
+    
+}
+
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)loginWithReq:(UserAccount *)user withUrl:(NSString *)url success:(HttpSuccess)success failure:(HttpFailure)failure
+{
+    NSDictionary *dic = [NSDictionary dictionaryWithObjectsAndKeys:user.userName,@"username",
+                                                                   user.password,@"password",
+                         nil];
+    [NetWorkManager postWithUrlString:url parameters:dic success:success failure:failure];
 }
-*/
 
 @end

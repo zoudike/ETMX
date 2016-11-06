@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "UserAccount.h"
+#import "NetWorkManager.h"
 
 @interface LogiinViewController : UIViewController
-
+- (void)loginWithReq:(UserAccount *)user withUrl:(NSString *)url success:(HttpSuccess)success failure:(HttpFailure)failure;
 @end
